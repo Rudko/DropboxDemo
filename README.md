@@ -9,5 +9,5 @@ All required ones are completed. Didn't start working on optional ones, got stuc
 Will complete some of the optional parts tomorrow before the class.  
 
 
-
+<a href="http://imgur.com/y8Dplko"><img src="http://i.imgur.com/y8Dplko.gif" title="source: imgur.com" /></a>
 
