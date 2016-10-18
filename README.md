@@ -5,8 +5,9 @@
 5-6 hours
 
 - Which required and optional stories have you completed? 
-All required are completed. Didn't start working on optional ones, got stuck on scroll view. 
+All required ones are completed. Didn't start working on optional ones, got stuck on a scroll view. 
 Will complete some of the optional parts tomorrow before the class.  
+
 
 
 
