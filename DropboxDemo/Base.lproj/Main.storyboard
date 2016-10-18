@@ -97,7 +97,7 @@
         <!--Navigation Controller-->
         <scene sceneID="7H2-0k-1e6">
             <objects>
-                <navigationController id="ac3-XT-zZl" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="ac3-XT-zZl" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RDL-he-MdL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -180,15 +180,15 @@
                                     <action selector="backFromCreateAccountButton:" destination="uM8-Hc-NFQ" eventType="touchUpInside" id="QlD-Cq-Bha"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ios-qM-BR6">
-                                <frame key="frameInset" minX="111" minY="250" width="257" height="47"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ios-qM-BR6">
+                                <frame key="frameInset" minX="111" minY="94" width="257" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="hvM-ax-88N" kind="push" id="Qqu-QN-WQH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xb6-C8-MwK">
-                                <frame key="frameInset" minX="128" width="247" height="413"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xb6-C8-MwK">
+                                <frame key="frameInset" minX="295" minY="28" width="80" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="SXx-gy-Vk8" kind="modal" id="nWQ-zA-Hef"/>
@@ -215,8 +215,8 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U6D-TR-WmB">
-                                <frame key="frameInset" minY="248" width="375" height="49"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U6D-TR-WmB">
+                                <frame key="frameInset" minY="95" width="375" height="202"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="8tS-yL-5m8" kind="push" id="4bQ-sE-nB8"/>
@@ -257,8 +257,8 @@
                                     <action selector="backFromCreateAccountVCButton:" destination="8tS-yL-5m8" eventType="touchUpInside" id="hWt-uV-DKp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uhx-ka-d73">
-                                <frame key="frameInset" minY="246" width="375" height="53"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uhx-ka-d73">
+                                <frame key="frameInset" minY="94" width="375" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="RL5-1L-ZUE" kind="push" id="8ia-E7-RcA"/>
@@ -355,8 +355,8 @@
                                     <action selector="backFromThreeCreateAccountVCButton:" destination="RL5-1L-ZUE" eventType="touchUpInside" id="QLz-E0-DQr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jaw-LA-6nW">
-                                <frame key="frameInset" minY="248" width="375" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jaw-LA-6nW">
+                                <frame key="frameInset" minY="95" width="375" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="Yer-xb-HIC" kind="push" id="5OR-XH-vhf"/>
@@ -432,6 +432,13 @@
                                     <segue destination="ajB-he-fRS" kind="modal" id="x2i-AS-zIF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AN8-G3-rfh">
+                                <frame key="frameInset" minX="9" minY="555" width="355" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Yer-xb-HIC" kind="push" id="VlN-C5-bUb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -492,26 +499,26 @@
         <!--Settings View Controller-->
         <scene sceneID="DRX-CD-l2k">
             <objects>
-                <viewController id="Gcv-e7-H6a" customClass="SettingsViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Gcv-e7-H6a" customClass="SettingsViewController" customModule="DropboxDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFit" misplaced="YES" id="h9t-Pz-xgh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="998"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" directionalLockEnabled="YES" alwaysBounceVertical="YES" pagingEnabled="YES" id="cF9-tc-zdR">
-                                <frame key="frameInset" minY="64" width="375" height="98.07%"/>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" flexibleMaxY="YES"/>
+                                <frame key="frameInset" minY="64" maxY="102"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9yN-kD-jvo">
-                                        <rect key="frame" x="8" y="783" width="359" height="49"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <segue destination="0pU-EL-HEo" kind="modal" id="DRC-66-EYN"/>
-                                        </connections>
-                                    </button>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="settings" id="DF3-XK-Hkd">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="844"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9yN-kD-jvo">
+                                        <rect key="frame" x="8" y="778" width="359" height="58"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="0pU-EL-HEo" kind="modal" id="dSe-qx-8BV"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -519,7 +526,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="d7q-M9-ygC"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="998"/>
+                    <size key="freeformSize" width="375" height="1000"/>
                     <connections>
                         <outlet property="scrollView" destination="cF9-tc-zdR" id="IF8-iC-6YF"/>
                         <outlet property="settingsView" destination="DF3-XK-Hkd" id="Ooh-SP-WaV"/>
@@ -697,7 +704,8 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="LAC-Os-VIX"/>
-        <segue reference="DRC-66-EYN"/>
+        <segue reference="dSe-qx-8BV"/>
         <segue reference="VlX-EQ-WI4"/>
+        <segue reference="VlN-C5-bUb"/>
     </inferredMetricsTieBreakers>
 </document>

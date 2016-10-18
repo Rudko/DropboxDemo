@@ -8,19 +8,20 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class SettingsViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var settingsView: UIImageView!
     
     
     override func viewDidLoad() {
-            scrollView.contentSize = CGSize(width: 320, height: 1000)
+                super.viewDidLoad()
+
+            scrollView.contentSize = CGSize(width: 375, height: 844)
+        scrollView.delegate = self
 
         
-        super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
